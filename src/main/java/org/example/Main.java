@@ -7,6 +7,6 @@ public class Main {
                 new SwingDragDropTextFields("Text Fields Drag and Drop");
         frame.setVisible(true);
 
-        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(SwingDragDropTextFields.EXIT_ON_CLOSE);
     }
 }
