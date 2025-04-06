@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class SwingDragDropTextFields extends JFrame
+    public class SwingDragDropTextFields extends JFrame
 {
     //Sample 02: TextFields as Members
     JTextField tf1;
@@ -25,7 +25,9 @@ public class SwingDragDropTextFields extends JFrame
 
         //Sample 03: Create TextFields, Labels
         tf1 = new JTextField(20);
+        tf1.setName("tf1");
         tf2 = new JTextField(20);
+        tf2.setName("tf2");
 
         //Sample 04: Add components to Frame
         add(new JLabel("Drag and drop text ->"));
